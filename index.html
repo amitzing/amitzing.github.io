@@ -37,7 +37,7 @@
       $('.garm').fadeOut();
      }
 
-     if ($(this).scrollTop()>315)
+     if ($(this).scrollTop()>300)
      {
         $('.naram').addClass('sharm').show(1000) ;}
         else
@@ -119,11 +119,13 @@
           flex-direction: row;
         }
       }
-      @media (max-width: 900px) {
-        .team-col {
-          flex-basis: 33vw;
+      @media (max-width: 800px) {
+        .heads .team-col{
+          flex-basis:46vw;
         }
-
+        .team-col{
+          flex-basis:50vw;
+        }
       }
       p{
         text-align: center;
@@ -176,7 +178,7 @@
     <section class="team">
       <h1>HEADS</h1>
       
-      <div class="row heads">
+      <div class="row">
         <div class="team-col">
           <img src="images/ashish.jfif" />
           <div class="footert">
@@ -187,7 +189,8 @@
           </div>
           <h3>Ashish Kumar</h3>
           <p>President</p>
-        </div>
+        </div></div>
+        <div class="row heads">
         <div class="team-col">
           <img src="images/ankit.jfif" />
           <div class="footert">
