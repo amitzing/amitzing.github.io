@@ -23,7 +23,7 @@ nav {
   align-items: center;
 }
 nav img {
-  width:52px;
+  width: 52px;
 }
 .nav-links {
   flex: 1;
@@ -386,20 +386,19 @@ h3 {
   font-size: 20px;
   z-index: 1;
 }
-.heads .team-col{
-  flex-basis:24vw;
-
+.heads .team-col {
+  flex-basis: 24vw;
 }
 .sharm {
   top: 0vh;
-  height:34px;
+  height: 34px;
 }
 .garm {
   top: 50vh;
 }
 
-.naram{
-  display:none;
+.naram {
+  display: none;
 }
 .arm a:hover,
 .active {
@@ -434,7 +433,6 @@ h3 {
   padding: 10px 0;
 }
 
-
 .effect .team-col:hover {
   transform: scale(1.1);
   background: radial-gradient(lightgrey, transparent);
@@ -454,19 +452,18 @@ h3 {
   flex-basis: 25vw;
 }
 .team-col {
-  
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: center;
   transition-timing-function: ease-in-out;
   transition-duration: 0.3s;
-  padding:10px;
-  flex-basis:33vw;
+  padding: 10px;
+  flex-basis: 33vw;
 }
 .team-col img {
   width: 80%;
   border-radius: 50px;
-  padding-top:0.3vw;
+  padding-top: 0.3vw;
 }
 
 .team-col p {
