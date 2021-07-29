@@ -430,7 +430,7 @@ h3 {
 }
 
 
-.effect .team-col:active {
+.effect .team-col:hover {
   transform: scale(1.1);
   background: radial-gradient(lightgrey, transparent);
   box-shadow: 0 0 20px lightgrey;
