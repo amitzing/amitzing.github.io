@@ -75,10 +75,14 @@
       });
 
 //hover issue in mobile
-
-
-
-
+var scrollTimer;
+$(window).on("scroll", function() {
+    if(scrollTimer) window.clearTimeout(scrollTimer);
+    $("body").removeClass("effect");
+    scrollTimer = window.setTimeout( function(){
+        $("body").addClass("effect");
+    }, 100);
+});
 
 
 
