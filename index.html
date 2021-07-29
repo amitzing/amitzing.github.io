@@ -39,7 +39,11 @@
 
      if ($(this).scrollTop()>300)
      {
-        $('.naram').addClass('sharm').show(1000) ;}
+        $('.naram').addClass('sharm').show(1000, 
+   function() {
+        $(this).css('display', 'flex');
+    }
+); }
         else
      {
       $('.sharm').hide(1000);
@@ -50,7 +54,7 @@
   
 
   
-  
+
 
 
 
@@ -75,6 +79,7 @@
       });
 
 //hover issue in mobile
+
 
 
 
