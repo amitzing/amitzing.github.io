@@ -458,10 +458,10 @@ h3 {
   transition-timing-function: ease-in-out;
   transition-duration: 0.3s;
   padding: 10px;
-  flex-basis: 33vw;
+  flex-basis: 28vw;
 }
 .team-col img {
-  width: 80%;
+  width: 65%;
   border-radius: 50px;
   padding-top: 0.3vw;
 }
