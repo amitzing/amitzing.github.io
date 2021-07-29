@@ -386,6 +386,10 @@ h3 {
   font-size: 20px;
   z-index: 1;
 }
+.team .heads ,.team .web{
+margin-top:0;
+
+}
 .heads .team-col {
   flex-basis: 24vw;
 }
@@ -422,6 +426,8 @@ h3 {
 .footert {
   display: flex;
   justify-content: space-evenly;
+  margin:0 auto;
+  width:80%;
 }
 
 .footert .fab,
@@ -461,8 +467,8 @@ h3 {
   flex-basis: 28vw;
 }
 .team-col img {
-  width: 65%;
-  border-radius: 50px;
+  width: 70%;
+  border-radius: 40px;
   padding-top: 0.3vw;
 }
 
