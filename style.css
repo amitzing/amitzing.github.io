@@ -428,11 +428,9 @@ h3 {
   cursor: pointer;
   padding: 10px 0;
 }
-.disable-hover {
-  pointer-events: none;
-}
 
-.team-col:hover {
+
+.effect .team-col:hover {
   transform: scale(1.1);
   background: radial-gradient(lightgrey, transparent);
   box-shadow: 0 0 20px lightgrey;
