@@ -24,17 +24,34 @@
         });
       });
       //fading in and out of the sticky header
-      $(document).scroll(function() {
-        var y = $(this).scrollTop();
-        if (y > 315) {
-          $('.sharm').fadeIn();
-        } else {
-          $('.sharm').fadeOut();
-          
-        }
-        if(y<50) $('.garm').fadeIn();
-        else  $('.garm').fadeOut();
-      });
+    
+      
+
+      $(window).scroll(function() {
+    if ($(this).scrollTop()<50)
+     {
+        $('.garm').fadeIn();
+     }
+    else
+     {
+      $('.garm').fadeOut();
+     }
+
+     if ($(this).scrollTop()>315)
+     {
+        $('.naram').addClass('sharm').show(1000) ;}
+        else
+     {
+      $('.sharm').hide(1000);
+     }
+
+
+
+ });
+  
+  
+  
+
 
 
 
@@ -124,7 +141,7 @@
       <!-- navbar -->
 
       <nav>
-       
+        <a href="index.html"><img src="images/logo.png"></a>
         <div id="navLinks" class="nav-links">
           <i class="fas fa-times" onclick="hideMenu()"></i>
           <ul>
@@ -141,7 +158,7 @@
       </nav>
 
       <h1>CHEMINEERS TEAM 2021-22</h1>
-      <p><div class="arm sharm" >
+      <p><div class="arm naram" >
         <a href="#heads1"> HEADS</a>
         <a href="#managers1" >MANAGERS</a>
         <a href="#web1">WEB</a>
@@ -153,8 +170,7 @@
         <a href="#web1">WEB</a>
         <a href="#secretaries1">SECRETARIES</a>
       </div></p>
-    </section>
-
+</section>
     <!--TEAM  -->
 
     <!-- HEADS -->
