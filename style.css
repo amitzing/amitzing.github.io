@@ -428,6 +428,9 @@ h3 {
   cursor: pointer;
   padding: 10px 0;
 }
+.disable-hover {
+  pointer-events: none;
+}
 
 .team-col:hover {
   transform: scale(1.1);
