@@ -15,7 +15,7 @@
       
             $('html, body').animate({
               scrollTop: $(hash).offset().top
-            }, 800, function(){
+            }, 1000, function(){
       
               // Add hash (#) to URL when done scrolling (default click behavior)
               window.location.hash = hash;
@@ -23,10 +23,9 @@
           }
         });
       });
-      //fading in and out of the sticky header
-    
-      
 
+
+      //fading in and out of the sticky header
       $(window).scroll(function() {
     if ($(this).scrollTop()<50)
      {
