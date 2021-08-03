@@ -466,7 +466,7 @@ margin-top:5px;
   text-align: center;
   transition-timing-function: ease-in-out;
   transition-duration: 0.3s;
-  transform:scale(0.95);
+  transform:scale(0.9);
   flex-basis: 28vw;
   padding:10px;
 }
