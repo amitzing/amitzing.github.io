@@ -440,7 +440,7 @@ margin-top:0;
 }
 
 .effect .team-col:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
   background: radial-gradient(lightgrey, transparent);
   box-shadow: 0 0 20px lightgrey;
 }
@@ -463,7 +463,7 @@ margin-top:0;
   text-align: center;
   transition-timing-function: ease-in-out;
   transition-duration: 0.3s;
-  padding: 10px;
+  transform:scale(0.92);
   flex-basis: 28vw;
 }
 .team-col img {
