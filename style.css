@@ -407,7 +407,7 @@ margin-top:-10px;
 .arm a:hover,
 .active {
   background: radial-gradient(#f5f5f5, transparent);
-  box-shadow: 0 0 20px #b7b7b7;
+  box-shadow: 0 0 20px #828282;
 }
 .arm a {
   padding: 3vw;
