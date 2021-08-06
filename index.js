@@ -44,7 +44,7 @@ $(window).scroll(function () {
     $('.garm').fadeOut();
   }
 
-  if ($(this).scrollTop() > 300) {
+  if ($(this).scrollTop() > 250) {
     $('.naram').addClass('sharm').show(900,
       function () {
         $(this).css('display', 'flex');
