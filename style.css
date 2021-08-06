@@ -435,7 +435,9 @@ margin-top:5px;
 
 .footert .fab,
 .footert .fas,
-.footer .fab {
+.footer .fab
+
+ {
   color: #111;
   margin: 0 13px;
   cursor: pointer;

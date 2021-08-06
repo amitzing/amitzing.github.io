@@ -77,7 +77,7 @@ $(window).scroll(function () {
       $('.arm a').removeClass('active');
       $('.arm a[href=\\#' + id + ']').addClass('active');
     }
-    $('.garm a[href="#heads1"]').removeClass('active');
+    $('.garm a[href="#faculty"]').removeClass('active');
   });
 
 
