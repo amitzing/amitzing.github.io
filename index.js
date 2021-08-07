@@ -10,7 +10,9 @@ function hideMenu() {
   navLinks.style.right = "-200px";
 
 }
-//TEAMS
+
+
+//TEAMS start
 
 
 $(document).ready(function () {
@@ -44,7 +46,7 @@ $(window).scroll(function () {
     $('.garm').fadeOut();
   }
 
-  if ($(this).scrollTop() > 250) {
+  if ($(this).scrollTop() > 280) {
     $('.naram').addClass('sharm').show(900,
       function () {
         $(this).css('display', 'flex');
@@ -57,12 +59,6 @@ $(window).scroll(function () {
 
 
 });
-
-
-
-
-
-
 
 
 //highlighting the links in the sticky header while scrolling
@@ -85,7 +81,7 @@ $(window).scroll(function () {
 });
 
 //hover issue in mobile
-
+//teams end
 
 
 
