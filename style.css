@@ -310,22 +310,63 @@ h3 {
 
 /* FOOTER */
 
-.footer {
-  width: 100%;
+footer{
+  background-color:#666666;
+  text-decoration:none;
+}
+
+.lastpart{
+width: 100%;
+margin: auto;
+text-align: center;
+padding-top: 8px;
+}
+.lastpart-col{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 3%;
   text-align: center;
-  padding: 30px 0;
+  color: white;
 }
-.footer h4 {
-  margin-bottom: 25px;
-  margin-top: 20px;
-  font-weight: 600;
+
+footer .lastpart-col p{
+  padding: 0;
+  font-size: 15px;
+  color: white;
+
 }
-.icons .fab {
-  color: #f44336;
-  margin: 0 13px;
-  cursor: pointer;
-  padding: 18px 0;
+footer .lastpart-col h3{
+  margin-top:8px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
 }
+
+footer  .media-icons a{
+  color: white;
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+footer .media-icons a:hover{
+  border-color: #33ff33;
+}
+footer .links a:hover{
+  color : #33ff33;
+  text-decoration:underline;
+}
+footer .links a{
+  color : white;
+}
+
 
 /* ABOUT US PAGE  */
 
